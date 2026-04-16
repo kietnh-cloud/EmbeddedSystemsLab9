@@ -1,0 +1,30 @@
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: auto;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    height: 150px;
+    flex-direction:column;
+    gap: 2px;
+    padding-bottom:40px;
+}
+
+body{
+    text-align:center;
+    background-color: rgb(50,50,50);
+    color: white;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+}
+
+li:nth-child(odd){
+    color:lightgreen;
+}
+
+li:nth-child(even){
+    color:rgb(250, 20, 20);
+    padding-bottom:20px;
+}
