@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head> 
-    <title> Embed Systems Photon LED </title>
+    <title> Sawtooth Waveform Controller </title>
     <link href = "assets/style.css" rel="stylesheet" />
     <meta charset="utf-8">
 </head>
@@ -13,31 +13,14 @@
     <form action = "https://api.particle.io/v1/devices/0a10aced202194944a05a6b0/led" method="POST">
         <input type="hidden" name="access_token" value = "6893d92d5ecc0617253ef059d0d3a8669fed2bd0">
 
+<p>
+    Enter a frequency value to generate a waveform!<br>
+    Valid number input must range from 500 to 20000: <br>
+    <input type = "text" name = "name">
+    <br><br>
+</p>
+     <p><input type = "submit" value = "Send"/></p>
     
-
-    <ul> 
-        <li><input type = "radio" name = "arg" value = "on1"/>
-        Turn LED1 on.</li>
-    
-        <li> <input type = "radio" name = "arg" value = "off1"/>
-        Turn LED1 off.</li>
-
-
-        <li><input type = "radio" name = "arg" value = "on2"/>
-        Turn LED2 on.</li>
-
-        <li> <input type = "radio" name = "arg" value = "off2"/>
-        Turn LED2 off.</li>
-
-
-        <li> <input type = "radio" name = "arg" value = "on3"/>
-        Turn LED3 on.</li>
-
-        <li> <input type = "radio" name = "arg" value = "off3"/>
-        Turn LED3 off.</li>
-    </ul>
-
-    <p> <input type = "submit" value = "Send"/></p>
 </form>
 <script src = "assets/script.js"></script>
 </body>
