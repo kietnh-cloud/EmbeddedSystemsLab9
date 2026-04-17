@@ -19,10 +19,8 @@ body{
     align-items:center;
     font-family: sans-serif;
     padding: 24px;
+    padding-top: 80px;
     flex-direction:column;
-    min-height: 100vh;
-    justify-content: center;
-
 }
 
 input[type="text"] {
