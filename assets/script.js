@@ -16,7 +16,7 @@ form.addEventListener('submit', function(e) {
     .then(data => {
         console.log("Response from Cloud:", data);
         if(data.return_value === 1) {
-            alert("Success: LED Toggled!");
+            alert("Success: Frequency Received!");
         } else {
             alert("Cloud received command but returned error: " + data.return_value);
         }
